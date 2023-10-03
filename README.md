@@ -19,7 +19,7 @@ Ayuda en español en la [Wiki!](https://github.com/lu9dce/ultron/wiki).
 
 ![ultron](https://pbs.twimg.com/media/F23jEfzWYAApY9t?format=webp&name=small)
 
-## ⚙️ To run PHP in an optimized way, use the following commands:
+## ⚙️ To run PHP in an optimized way for linux, use the following commands:
 
 To run it directly in the command line:
 
