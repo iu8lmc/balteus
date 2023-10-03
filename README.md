@@ -32,6 +32,12 @@ tmux new-session -d -s robot 'cd /root/ultron && php -d opcache.enable_cli=1 -d 
 
 These commands will help you run your PHP script with optimizations either in the foreground or in the background using tmux.
 
+## 🦾 New recent enhancements
+
+* Enhanced weak signal detection
+* Detection of invalid or improperly formatted licenses
+* The use of **JTDX** is recommended
+
 ## 📜 Description
 
 ULTRON is a sophisticated software tool designed for **remotely or locally controlling programs like JTDX, MSHV, and WSJT-X**. It offers seamless operation on both **Windows and Linux platforms**, supporting both 32-bit and 64-bit versions. The software relies on the **latest version of PHP** for optimal performance.
@@ -77,7 +83,7 @@ Before utilizing ULTRON, please ensure the following prerequisites are met:
 
 - ULTRON operates in **real-time**, allowing seamless software switches without requiring restarts. It automatically detects your **call sign**, **IP address**, and communication ports.
 - ULTRON uses its own **logbook**, but you can provide your own by placing it in the "**wsjtx_log.adi**" folder within ULTRON. This logbook remains separate from other software.
-- In addition to calling CQ, ULTRON recognizes messages like **73** or **RR73** and determines if correspondents are busy or unresponsive.
+- In addition to calling CQ, ULTRON recognizes messages like **73** / **RRR** or **RR73** and determines if correspondents are busy or unresponsive.
 - If a correspondent doesn't respond, they will be **waitlisted for 30 minutes** before a QSO retry.
 - Signals weaker than **-20dB** are considered less likely to result in successful QSOs.
 - The logged ADIF message is sent to ULTRON when the WSJT-X user accepts the "Log  QSO" dialog by clicking the "OK" button.
