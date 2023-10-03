@@ -10,6 +10,9 @@
 
 **I recommend AUTOSPOT:** https://github.com/lu9dce/autospot
 
+**DOWNLOAD** : 📥 [Ultron (Main Branch)](https://github.com/lu9dce/ultron/archive/refs/heads/main.zip)
+
+
 ## [DONATE](https://www.paypal.com/donate/?hosted_button_id=WHG8FQRMAPA3E)
 
 Ayuda en español en la [Wiki!](https://github.com/lu9dce/ultron/wiki).
