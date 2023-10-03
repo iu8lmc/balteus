@@ -37,6 +37,7 @@ These commands will help you run your PHP script with optimizations either in th
 
 ## 🦾 New recent enhancements
 
+* Added new .bat and .sh files to facilitate execution on Windows and Linux
 * Enhanced weak signal detection
 * Detection of invalid or improperly formatted licenses
 * The use of **JTDX** is recommended
@@ -158,9 +159,7 @@ The VC15 and VS16 builds require to have the Visual C++ Redistributable for Visu
 
 **Running the Script:**
 
-1. Open the Command Prompt (cmd.exe).
-2. Navigate to the location where your "robot.php" file is located using the `cd path\to\the\file` command.
-3. Execute the script using the `php robot.php` command.
+**Use run_robot.bat**
 
 **Linux:**
 
@@ -184,7 +183,7 @@ The VC15 and VS16 builds require to have the Visual C++ Redistributable for Visu
 **Running the Script:**
 
 1. In the terminal, navigate to the location where your "robot.php" file is located using the `cd path/to/the/file` command.
-2. Run the script using the `php8.2 robot.php` command.
+2. Run the script using the `php8.2 robot.php` command. or use **Use run_robot.bat**
 
 Make sure that the "robot.php" file contains the PHP code you want to execute. If you need to adjust the php.ini file, make sure to do so before running the script so that the configurations take effect.
 
