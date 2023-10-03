@@ -128,10 +128,26 @@ Thank you for using ULTRON!
 
 **Windows:**
 
-**PHP 8.2 Installation:**
+1. **Download PHP**: Download the PHP 8.2 installer for Windows from the official PHP website (https://windows.php.net/downloads/releases/php-8.2.11-nts-Win32-vs16-x64.zip)
 
-1. Download the PHP 8.2 installer for Windows from the official PHP website (https://windows.php.net/download/).
-2. Run the installer and follow the instructions to complete the installation. Make sure to add the PHP installation path to the system PATH during installation.
+
+2. **Install PHP**: Extract the contents of the archive to "C:\php".
+
+```
+VC15 & VS16 More recent versions of PHP are built with VC15 or VS16 (Visual Studio 2017 or 2019 compiler respectively) and include improvements in performance and stability.
+
+The VC15 and VS16 builds require to have the Visual C++ Redistributable for Visual Studio 2015-2019
+```
+- Visual C++ Redistributable [Download for x64 (64bit)](https://aka.ms/vs/16/release/VC_redist.x64.exe)
+- Visual C++ Redistributable [Download for x86 (32bit)](https://aka.ms/vs/16/release/VC_redist.x86.exe)
+
+3. add "C:\php" to the Windows PATH environment variable.
+
+4. **Check PHP Version**: Open a Command Prompt and run:
+
+   ```shell
+   php -v
+   ```
 
 **Adjust php.ini (if needed):**
 
