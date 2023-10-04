@@ -159,7 +159,7 @@ The VC15 and VS16 builds require to have the Visual C++ Redistributable for Visu
 
 **Running the Script:**
 
-**Use run_robot.bat**
+**Use run_ultron.bat**
 
 **Linux:**
 
@@ -183,7 +183,7 @@ The VC15 and VS16 builds require to have the Visual C++ Redistributable for Visu
 **Running the Script:**
 
 1. In the terminal, navigate to the location where your "robot.php" file is located using the `cd path/to/the/file` command.
-2. Run the script using the `php8.2 robot.php` command. or use **Use run_robot.bat**
+2. Run the script using the `php robot.php` command. or use **Use run_ultron.sh**
 
 Make sure that the "robot.php" file contains the PHP code you want to execute. If you need to adjust the php.ini file, make sure to do so before running the script so that the configurations take effect.
 
