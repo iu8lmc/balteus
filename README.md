@@ -35,6 +35,10 @@ tmux new-session -d -s robot 'cd /root/ultron && php -d opcache.enable_cli=1 -d 
 
 These commands will help you run your PHP script with optimizations either in the foreground or in the background using tmux.
 
+**Use run_ultron.bat** for Windows
+
+**Use run_ultron.sh** for linux
+
 ## 🦾 New recent enhancements
 
 * Added new .bat and .sh files to facilitate execution on Windows and Linux
