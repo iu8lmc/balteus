@@ -10,16 +10,6 @@
 
 **I recommend AUTOSPOT:** https://github.com/lu9dce/autospot
 
-**Attention: THE LINUX VERSION WILL BE DISCONTINUED**
-
-If you are a Linux user, download the Windows version and run PHP directly.
-
-The download link provided for Windows contains the source code, complete scripts, a terminal, and PHP.
-
-It also includes Visual C++ Redistributable for installation.
-
-All of this is in 32-bit, which runs perfectly on 64-bit.
-
 **EASY FOR WIN DOWNLOAD** : 📥 [Ultron (WIN)](https://drive.google.com/drive/folders/1JYWeMY5giVzscMdtq1dMDu2BknGj-CeX?usp=sharing)
 
 **DOWNLOAD** : 📥 [Ultron (Main Branch)](https://github.com/lu9dce/ultron/archive/refs/heads/main.zip)
