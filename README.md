@@ -1,4 +1,4 @@
-# ULTRON - Automatic Control of JTDX/WSJT-X/MSHV 🤖
+# ULTRON - Automatic Control of JTDX/WSJT-X/MSHV 📻
 
 **Created by:** https://lu9dce.github.io/
 
