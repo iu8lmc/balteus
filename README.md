@@ -14,6 +14,11 @@
 
 **DOWNLOAD** : 📥 [Ultron (Main Branch)](https://github.com/lu9dce/ultron/archive/refs/heads/main.zip)
 
+"Remember that this software requires knowledge in both operating systems and PHP.
+
+I have tested this program on Slackware 15.0, and other colleagues have tested it on Fedora and Debian, as well as on Windows.
+
+I do not guarantee its functionality if the user lacks knowledge."
 
 ## [DONATE](https://www.paypal.com/donate/?hosted_button_id=WHG8FQRMAPA3E)
 
@@ -21,38 +26,11 @@ Ayuda en español en la [Wiki!](https://github.com/lu9dce/ultron/wiki).
 
 ![ultron](https://pbs.twimg.com/media/F23jEfzWYAApY9t?format=webp&name=small)
 
-## ⚙️ To run PHP in an optimized way for linux, use the following commands:
-
-To run it directly in the command line:
-
-```bash
-php -d opcache.enable_cli=1 -d opcache.jit_buffer_size=64M -d opcache.jit=1255 -d memory_limit=-1 robot.php
-```
-
-For example, to run it in the background, you can use:
-
-```bash
-tmux new-session -d -s robot 'cd /root/ultron && php -d opcache.enable_cli=1 -d opcache.jit_buffer_size=64M -d opcache.jit=1255 -d memory_limit=-1 robot.php > /dev/tty1 && tmux detach-client'
-```
-
-These commands will help you run your PHP script with optimizations either in the foreground or in the background using tmux.
-
-**Use run_ultron.bat** for Windows
-
-**Use run_ultron.sh** for linux
-
-## 🦾 New recent enhancements
-
-* Added new .bat and .sh files to facilitate execution on Windows and Linux
-* Enhanced weak signal detection
-* Detection of invalid or improperly formatted licenses
-* The use of **JTDX** is recommended
-
-## 📜 Description
+## Description
 
 ULTRON is a sophisticated software tool designed for **remotely or locally controlling programs like JTDX, MSHV, and WSJT-X**. It offers seamless operation on both **Windows and Linux platforms**, supporting both 32-bit and 64-bit versions. The software relies on the **latest version of PHP** for optimal performance.
 
-## 🌟 Advantages of Using ULTRON
+## Advantages of Using ULTRON
 
 ULTRON offers a multitude of advantages as a **BOT** for controlling programs like JTDX, MSHV, and WSJT-X:
 
@@ -74,9 +52,9 @@ ULTRON offers a multitude of advantages as a **BOT** for controlling programs li
 
 In summary, employing ULTRON as a BOT for radio program control offers an array of benefits, ranging from operational efficiency and adaptability to intelligent decision-making and enhanced communication success rates. Its seamless integration, real-time capabilities, and intelligent automation make ULTRON a valuable asset in the world of amateur radio communication.
 
-🚀 **Try ULTRON today and elevate your amateur radio experience!** 🚀
+**Try ULTRON today and elevate your amateur radio experience!**
 
-## 🔧 Requirements
+## Requirements
 
 Before utilizing ULTRON, please ensure the following prerequisites are met:
 - Latest version of **PHP** installed
@@ -98,15 +76,15 @@ Before utilizing ULTRON, please ensure the following prerequisites are met:
 - Signals weaker than **-20dB** are considered less likely to result in successful QSOs.
 - The logged ADIF message is sent to ULTRON when the WSJT-X user accepts the "Log  QSO" dialog by clicking the "OK" button.
 
-## 🌈 Terminal and Color Support
+## Terminal and Color Support
 
 ULTRON requires a terminal with **ASCII color support**. You can use the **Linux terminal** or the new **Windows 10/11 terminal**, both of which support ASCII color. For color support on Windows, consider using [**ConEmu**](https://conemu.github.io/) for an enhanced experience.
 
-## 🍓 Raspberry Pi
+## Raspberry Pi
 
 To control Raspberry Pi LEDs, use the `sudo` command configured without a password prompt. The **green LED** lights up for each decoding and turns off when inactive. The **red LED** exhibits a heartbeat-like effect during QSOs. Conducting a QSO emits an audible tone if a speaker is connected to the Pi's jack.
 
-## 💻 ULTRON Execution Instructions
+## ULTRON Execution Instructions
 
 To run ULTRON on both Windows and Linux, you have several options:
 
@@ -134,66 +112,7 @@ Thank you for using ULTRON!
 
 "I am not liable for the use or inability to use this software or any other."
 
-## 😎 **PHP**
-
-**Windows:**
-
-1. **Download PHP**: Download the PHP 8.2 installer for Windows from the official PHP website (https://windows.php.net/downloads/releases/php-8.2.11-nts-Win32-vs16-x64.zip)
-
-
-2. **Install PHP**: Extract the contents of the archive to "C:\php".
-
-```
-VC15 & VS16 More recent versions of PHP are built with VC15 or VS16 (Visual Studio 2017 or 2019 compiler respectively) and include improvements in performance and stability.
-
-The VC15 and VS16 builds require to have the Visual C++ Redistributable for Visual Studio 2015-2019
-```
-- Visual C++ Redistributable [Download for x64 (64bit)](https://aka.ms/vs/16/release/VC_redist.x64.exe)
-- Visual C++ Redistributable [Download for x86 (32bit)](https://aka.ms/vs/16/release/VC_redist.x86.exe)
-
-3. add "C:\php" to the Windows PATH environment variable.
-
-4. **Check PHP Version**: Open a Command Prompt and run:
-
-   ```shell
-   php -v
-   ```
-
-**Adjust php.ini (if needed):**
-
-- If your "robot.php" script requires specific configurations in the php.ini file, such as memory settings or execution limits, open the php.ini file in a text editor and make the necessary changes.
-
-**Running the Script:**
-
-**Use run_ultron.bat**
-
-**Linux:**
-
-**PHP 8.2 Installation:**
-
-1. Open the terminal.
-2. Execute the following commands to add the Ondřej Surý repository and install PHP 8.2:
-
-   ```bash
-   sudo apt-get install ca-certificates apt-transport-https
-   wget -q https://packages.sury.org/php/apt.gpg -O- | sudo gpg --dearmor -o /usr/share/keyrings/php-archive-keyring.gpg
-   echo "deb [signed-by=/usr/share/keyrings/php-archive-keyring.gpg] https://packages.sury.org/php/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/php.list
-   sudo apt update
-   sudo apt install php8.2 php8.2-cli php8.2-fpm php8.2-common php8.2-mysql php8.2-zip php8.2-gd php8.2-mbstring php8.2-curl php8.2-xml php8.2-bcmath php8.2-xmlrpc php8.2-intl php8.2-soap php8.2-readline
-   ```
-
-**Adjust php.ini (if needed):**
-
-- If your "robot.php" script requires specific configurations in the php.ini file, open the php.ini file in a terminal-based text editor like nano or vim, and make the necessary changes.
-
-**Running the Script:**
-
-1. In the terminal, navigate to the location where your "robot.php" file is located using the `cd path/to/the/file` command.
-2. Run the script using the `php robot.php` command. or use **Use run_ultron.sh**
-
-Make sure that the "robot.php" file contains the PHP code you want to execute. If you need to adjust the php.ini file, make sure to do so before running the script so that the configurations take effect.
-
-## 🙋‍♂️ Thinking
+## Thinking
 
 Ultron was developed by me for me and some friends. It requires the user to have prior knowledge in using PHP and knowing how to use a Windows or Linux terminal. That's no longer up to me, but I guarantee you Ultron works very well. It can operate for years without the need for intervention.
 
