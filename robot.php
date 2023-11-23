@@ -135,6 +135,8 @@ echo " Version $version\n\r";
 echo " Looking for radio software wait ...";
 goto test;
 contr:
+$resultados_json = file_get_contents('base.json');
+$base = json_decode($resultados_json, true);
 echo fg($mica, 5);
 echo "$robot Ctrl + C to exit\n\r";
 echo fg($mica, 1);
@@ -172,52 +174,29 @@ function sendcq()
     fclose($fp);
     return $sendcq = "1";
 }
-echo " -----> Testing country file : ";
-$csvPath = __DIR__ . '/cty.csv';
-if (@filesize($csvPath) === 0) {
-    unlink($csvPath);
-}
-if (!file_exists($csvPath)) {
-    echo "Download ";
-    $csvData = @file_get_contents('https://www.country-files.com/bigcty/cty.csv');
-    if ($csvData !== false) {
-        file_put_contents($csvPath, $csvData);
-        echo "[OK]\n\r";
-    } else {
-        echo "[ERROR]\n\r";
-        file_put_contents($csvPath, '');
-    }
-} else {
-    echo "[OK]\n\r";
-}
-function load_cty_array()
-{
-    $cty_array = array();
-    $dirt = __DIR__ . '/cty.csv';
-    $handle = fopen($dirt, "r");
-    while (($raw_string = fgets($handle)) !== false) {
-        $row = str_getcsv($raw_string);
-        $array = explode(' ', $row[9]);
-        foreach ($array as &$value) {
-            $value = str_replace(';', '', $value);
-            $cty_array[$value] = $row[1];
-        }
-    }
-    fclose($handle);
-    return $cty_array;
-}
-$cty_array = load_cty_array();
 function locate($licrx)
 {
-    global $cty_array;
+    global $base;
     $z = strlen($licrx);
+    $licrx = str_replace(['\\', '/'], ['\\\\', '\\/'], $licrx);
     for ($i = $z; $i >= 1; $i--) {
-        $licrx = substr($licrx, 0, $i);
-        if (isset($cty_array[$licrx])) {
-            return $cty_array[$licrx];
+        $licencia_recortada = substr($licrx, 0, $i);
+        foreach ($base as $resultado) {
+            $expresion_regular = '/\b ' . $licencia_recortada . '\b/';
+            if (preg_match($expresion_regular, $resultado['licencia'])) {
+                return array(
+                    'id' => $resultado['id'],
+                    'flag' => $resultado['flag'],
+                    'name' => $resultado['name']
+                );
+            }
         }
     }
-    return "??";
+    return array(
+        'id' => 'unknown',
+        'flag' => 'unknown',
+        'name' => 'unknown'
+    );
 }
 function vicen($licencia)
 {
@@ -507,7 +486,7 @@ if (!vicen($lin[1])) {
     $zz = "FL";
     $fg = "8";
 }
-if (strpos($messaged, $dxc) !== false && $sendcq == "1") {
+if (@strpos($messaged, $dxc) !== false && $sendcq == "1") {
     $fg = "2";
 }
 shsh:
@@ -515,6 +494,7 @@ if (isset($tropa[$lin[1]])) {
     $qio = $tropa[$lin[1]];
 } else {
     $qio = locate($lin[1]);
+    $qio = $qio['name'];
     $tropa[$lin[1]] = $qio;
 }
 if ($led) {
