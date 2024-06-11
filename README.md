@@ -1,132 +1,100 @@
-# ULTRON - Automatic Control of JTDX/WSJT-X/MSHV 📻
+Tradotto in Italiano
+Creato da: https://github.com/iu8lmc
 
-**Created by:** https://lu9dce.github.io/
+Copyright: 2024 Martino Merola  
 
-**Copyright:** 2023 Eduardo Castillo  
+Contatto: iu8lmc@gmail.com
+Licenza: https://creativecommons.org/licenses/by-nc-nd/4.0/
 
-**Contact:** castilloeduardo@outlook.com.ar  
+Raccomando AUTOSPOT: https://github.com/lu9dce/autospot
 
-**License:** https://creativecommons.org/licenses/by-nc-nd/4.0/
+FACILE DA SCARICARE PER WINDOWS: 📥 Ultron (WIN)
 
-**I recommend AUTOSPOT:** https://github.com/lu9dce/autospot
+SCARICA: 📥 Ultron (Ramo Principale)
 
-**EASY FOR WIN DOWNLOAD** : 📥 [Ultron (WIN)](https://drive.google.com/drive/folders/1JYWeMY5giVzscMdtq1dMDu2BknGj-CeX?usp=sharing)
+"Ricorda che questo software richiede conoscenze sia sui sistemi operativi che su PHP.
 
-**DOWNLOAD** : 📥 [Ultron (Main Branch)](https://github.com/lu9dce/ultron/archive/refs/heads/main.zip)
+Ho testato questo programma su Slackware 15.0 e altri colleghi l'hanno testato su Fedora e Debian, oltre che su Windows.
 
-"Remember that this software requires knowledge in both operating systems and PHP.
+Non garantisco la sua funzionalità se l'utente non ha conoscenze."
 
-I have tested this program on Slackware 15.0, and other colleagues have tested it on Fedora and Debian, as well as on Windows.
+DONARE
+Aiuto in spagnolo sulla Wiki.
 
-I do not guarantee its functionality if the user lacks knowledge."
 
-## [DONATE](https://www.paypal.com/donate/?hosted_button_id=WHG8FQRMAPA3E)
 
-Ayuda en español en la [Wiki!](https://github.com/lu9dce/ultron/wiki).
+Descrizione
+ULTRON è uno strumento software sofisticato progettato per controllare programmi come JTDX, MSHV e WSJT-X in remoto o localmente. Offre un'operazione fluida su piattaforme Windows e Linux, supportando sia versioni a 32 bit che a 64 bit. Il software si basa sull'ultima versione di PHP per un rendimento ottimale.
 
-![ultron](https://pbs.twimg.com/media/F23jEfzWYAApY9t?format=webp&name=small)
+Vantaggi dell'Uso di ULTRON
+ULTRON offre molteplici vantaggi come BOT per il controllo di programmi come JTDX, MSHV e WSJT-X:
 
-## Description
+Controllo Remoto Senza Sforzo: ULTRON consente agli utenti di controllare i programmi radio in remoto, eliminando la necessità di presenza fisica. Questo è particolarmente utile in scenari in cui sono necessari aggiustamenti e monitoraggio in tempo reale senza essere legati a una posizione specifica.
 
-ULTRON is a sophisticated software tool designed for **remotely or locally controlling programs like JTDX, MSHV, and WSJT-X**. It offers seamless operation on both **Windows and Linux platforms**, supporting both 32-bit and 64-bit versions. The software relies on the **latest version of PHP** for optimal performance.
+Maggiore Efficienza: Automatizzando compiti ripetitivi come le chiamate CQ e il riconoscimento dei messaggi, ULTRON aumenta l'efficienza operativa. Può gestire le comunicazioni senza sosta, liberando gli operatori per concentrarsi su aspetti più strategici delle loro attività radio.
 
-## Advantages of Using ULTRON
+Integrazione Senza Problemi: ULTRON si integra perfettamente con le piattaforme Windows e Linux, offrendo un'esperienza coerente e user-friendly su diversi sistemi operativi. Il supporto per varie versioni garantisce la compatibilità con una vasta gamma di configurazioni.
 
-ULTRON offers a multitude of advantages as a **BOT** for controlling programs like JTDX, MSHV, and WSJT-X:
+Adattabilità in Tempo Reale: La funzionalità in tempo reale di ULTRON consente modifiche dinamiche nelle preferenze del software senza la necessità di frequenti riavvii. Gli utenti possono passare facilmente tra programmi come JTDX, MSHV e WSJT-X, adattandosi alle esigenze comunicative in continua evoluzione.
 
-1. **Effortless Remote Control**: ULTRON empowers users with the ability to control radio programs remotely, eliminating the need for physical presence. This is particularly beneficial for scenarios where real-time adjustments and monitoring are required without being tied to a specific location.
+Gestione Automatica del Registro di Log: La gestione dedicata del registro di log di ULTRON assicura un tracciamento accurato dei QSO. La possibilità di utilizzare un registro personalizzato mantenendolo separato da altri software semplifica la tenuta dei registri e la verifica dei QSO.
 
-2. **Enhanced Efficiency**: By automating repetitive tasks such as CQ calling and message recognition, ULTRON boosts operational efficiency. It can tirelessly manage communication, freeing up operators to focus on more strategic aspects of their radio activities.
+Decisione Intelligente: La capacità di ULTRON di identificare i messaggi, rispondere ai corrispondenti e gestire le liste d'attesa dimostra la sua intelligenza nel prendere decisioni informate durante la comunicazione. Snellisce il processo QSO, aumentando le possibilità di interazioni di successo.
 
-3. **Seamless Integration**: ULTRON integrates seamlessly with both Windows and Linux platforms, providing a consistent and user-friendly experience across different operating systems. Its support for various versions ensures compatibility with a wide range of setups.
+Valutazione della Forza del Segnale: La considerazione della forza del segnale da parte di ULTRON aumenta le probabilità di successo dei QSO. Prendendo in considerazione segnali più deboli di -20dB, aiuta a dare priorità alle comunicazioni con migliori possibilità di successo.
 
-4. **Real-Time Adaptability**: The real-time functionality of ULTRON enables dynamic changes in software preferences without the need for frequent restarts. Users can switch between programs like JTDX, MSHV, and WSJT-X effortlessly, adapting to changing communication needs on the fly.
+Feedback Visivo: Per gli utenti di Raspberry Pi, le funzionalità di controllo dei LED e del tono udibile forniscono feedback visivo e audio, migliorando la consapevolezza dell'utente sulle operazioni in corso e sullo stato del processo di comunicazione.
 
-5. **Automated Logbook Management**: ULTRON's dedicated logbook management ensures accurate tracking of QSOs. The ability to use a personalized logbook while keeping it separate from other software simplifies record-keeping and QSO verification.
+In sintesi, impiegare ULTRON come BOT per il controllo dei programmi radio offre una serie di vantaggi, che vanno dall'efficienza operativa e l'adattabilità alla decisione intelligente e al successo migliorato nelle comunicazioni. La sua integrazione senza problemi, le capacità in tempo reale e l'automazione intelligente fanno di ULTRON un prezioso asset nel mondo delle comunicazioni radio amatoriali.
 
-6. **Intelligent Decision-Making**: ULTRON's ability to identify messages, respond to correspondents, and manage waitlists demonstrates its intelligence in making informed decisions during communication. It streamlines the QSO process, increasing the chances of successful interactions.
+Prova ULTRON oggi e migliora la tua esperienza radio amatoriale!
 
-7. **Signal Strength Assessment**: ULTRON's consideration of signal strength enhances QSO success rates. By taking into account signals weaker than -20dB, it assists in prioritizing communications with better chances of success.
+Requisiti
+Prima di utilizzare ULTRON, assicurati che i seguenti requisiti siano soddisfatti:
 
-8. **Visual Feedback**: For Raspberry Pi users, the LED control and audible tone features provide visual and audio feedback, enhancing user awareness of ongoing operations and the status of the communication process.
+Ultima versione di PHP installata
+Elenco dei moduli PHP richiesti (specificato alla fine dello script)
+Software radio configurato correttamente per un rendimento ottimale
+Raccomandazioni per un utilizzo ottimale:
+Disabilitare il Tx watchdog
+Configurare il server UDP per puntare alla posizione IP del programma
+Abilitare la trasmissione dei dati del QSO registrati in formato ADIF
+Non filtrare i dati UDP
+Regolare le impostazioni del firewall per facilitare il flusso dei dati
+📋 Dettagli
+ULTRON opera in tempo reale, consentendo cambi di software senza la necessità di riavvii. Rileva automaticamente il tuo call sign, l'indirizzo IP e le porte di comunicazione.
+ULTRON utilizza il proprio registro di log, ma puoi fornirne uno tuo posizionandolo nella cartella "wsjtx_log.adi" all'interno di ULTRON. Questo registro rimane separato dagli altri software.
+Oltre a chiamare CQ, ULTRON riconosce messaggi come 73 / RRR o RR73 e determina se i corrispondenti sono occupati o non rispondono.
+Se un corrispondente non risponde, sarà in lista d'attesa per 30 minuti prima di tentare nuovamente un QSO.
+I segnali più deboli di -20dB sono considerati meno probabili di risultare in QSO di successo.
+Il messaggio ADIF registrato viene inviato a ULTRON quando l'utente WSJT-X accetta la finestra di dialogo "Log QSO" cliccando sul pulsante "OK".
+Terminale e Supporto ai Colori
+ULTRON richiede un terminale con supporto ai colori ASCII. Puoi usare il terminale Linux o il nuovo terminale di Windows 10/11, entrambi supportano i colori ASCII. Per il supporto ai colori su Windows, considera l'uso di ConEmu per un'esperienza migliorata.
 
-In summary, employing ULTRON as a BOT for radio program control offers an array of benefits, ranging from operational efficiency and adaptability to intelligent decision-making and enhanced communication success rates. Its seamless integration, real-time capabilities, and intelligent automation make ULTRON a valuable asset in the world of amateur radio communication.
+Raspberry Pi
+Per controllare i LED del Raspberry Pi, usa il comando sudo configurato senza richiesta di password. Il LED verde si accende per ogni decodifica e si spegne quando inattivo. Il LED rosso mostra un effetto simile a un battito cardiaco durante i QSO. La conduzione di un QSO emette un tono udibile se un altoparlante è collegato al jack del Pi.
 
-**Try ULTRON today and elevate your amateur radio experience!**
+Istruzioni per Eseguire ULTRON
+Per eseguire ULTRON su Windows e Linux, hai diverse opzioni:
 
-## Requirements
+Esecuzione da Terminale:
+Puoi eseguire ULTRON direttamente tramite il terminale eseguendo il seguente comando: php robot.php
 
-Before utilizing ULTRON, please ensure the following prerequisites are met:
-- Latest version of **PHP** installed
-- List of required **PHP modules** (specified at the end of the script)
-- Properly configured radio software for optimal performance
-- Recommendations for optimal usage:
-  - Disable the Tx watchdog
-  - Configure the UDP server to target the program's IP location
-  - Enable transmission of logged QSO ADIF data
-  - Do not filter UDP data
-  - Adjust firewall settings to facilitate data flow
+Script Batch (Windows) o Shell (Linux):
+In alternativa, puoi creare uno script batch (.BAT) per Windows o uno script shell (.sh) per Linux con i comandi necessari per eseguire ULTRON.
 
-## 📋 Details
+Task Scheduler:
+Puoi anche utilizzare un task scheduler per eseguire ULTRON in background all'avvio del sistema.
 
-- ULTRON operates in **real-time**, allowing seamless software switches without requiring restarts. It automatically detects your **call sign**, **IP address**, and communication ports.
-- ULTRON uses its own **logbook**, but you can provide your own by placing it in the "**wsjtx_log.adi**" folder within ULTRON. This logbook remains separate from other software.
-- In addition to calling CQ, ULTRON recognizes messages like **73** / **RRR** or **RR73** and determines if correspondents are busy or unresponsive.
-- If a correspondent doesn't respond, they will be **waitlisted for 30 minutes** before a QSO retry.
-- Signals weaker than **-20dB** are considered less likely to result in successful QSOs.
-- The logged ADIF message is sent to ULTRON when the WSJT-X user accepts the "Log  QSO" dialog by clicking the "OK" button.
+Tieni presenti le seguenti considerazioni importanti:
 
-## Terminal and Color Support
+ULTRON richiede moduli specifici. Assicurati di avere installato i moduli richiesti. Consulta il file "robot.php" per l'elenco dei requisiti.
+Effettua le modifiche necessarie alla configurazione "php.ini" per soddisfare i requisiti di ULTRON.
+Per riferimento, è fornita una configurazione "php.ini" di esempio nella cartella "extras".
 
-ULTRON requires a terminal with **ASCII color support**. You can use the **Linux terminal** or the new **Windows 10/11 terminal**, both of which support ASCII color. For color support on Windows, consider using [**ConEmu**](https://conemu.github.io/) for an enhanced experience.
+Per qualsiasi ulteriore assistenza, consulta la documentazione o contatta il nostro team di supporto.
 
-## Raspberry Pi
+Grazie per aver scelto ULTRON!
 
-To control Raspberry Pi LEDs, use the `sudo` command configured without a password prompt. The **green LED** lights up for each decoding and turns off when inactive. The **red LED** exhibits a heartbeat-like effect during QSOs. Conducting a QSO emits an audible tone if a speaker is connected to the Pi's jack.
-
-## ULTRON Execution Instructions
-
-To run ULTRON on both Windows and Linux, you have several options:
-
-1. **Terminal Execution:**
-   You can execute ULTRON directly through the terminal by running the following command: `php robot.php`
-
-2. **Batch Script (Windows) or Shell Script (Linux):**
-Alternatively, you can create a batch script (.BAT) for Windows or a shell script (.sh) for Linux with the necessary commands to execute ULTRON.
-
-3. **Task Scheduler:**
-You may also utilize a task scheduler to run ULTRON in the background upon system startup.
-
-Please note the following important considerations:
-
-- ULTRON requires specific modules. Please ensure that you have the required modules installed. Refer to the "robot.php" file for the list of requirements.
-- Make necessary modifications to the "php.ini" configuration to meet the requirements of ULTRON.
-
-For reference, an example "php.ini" configuration is provided in the "extras" folder.
-
-For any further assistance, please refer to the documentation or contact our support team.
-
-Thank you for using ULTRON!
-
-## ⚠️ Disclaimer
-
-"I am not liable for the use or inability to use this software or any other."
-
-## Thinking
-
-Ultron was developed by me for me and some friends. It requires the user to have prior knowledge in using PHP and knowing how to use a Windows or Linux terminal. That's no longer up to me, but I guarantee you Ultron works very well. It can operate for years without the need for intervention.
-
-**Why PHP!** Because it runs on any operating system and no compilation is needed. The script is just text with commands. Ultron will execute on any device that can run PHP (PC/CELLPHONE/ROUTER... ETC).
-
-## 🖥️ Devices that Can Run PHP
-
-- Personal Computers (PC) with Windows, macOS, or Linux.
-- Smartphones and tablets with iOS, Android, etc.
-- Web servers (Linux, Windows Server, etc.).
-- Network devices (routers, switches, etc.).
-- Internet of Things (IoT) devices with processing capabilities.
-- Development boards like Raspberry Pi (Linux).
-- Modified gaming consoles.
-- Smart TVs and multimedia devices.
-- Some printers and multifunctional devices.
-- Industrial control systems and embedded devices.
+⚠️ Disclaimer
+"Non sono responsabile per l'uso o l'incap
