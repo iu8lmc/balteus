@@ -2,14 +2,14 @@
 /*
  * ULTRON - Automatic Control of JTDX/WSJT-X/MSHV
  *
- * Created by: LU9DCE
- * Copyright: 2023 Eduardo Castillo
- * Contact: castilloeduardo@outlook.com.ar
+ * Created by: IU8LMC
+ * Copyright: 2024 Martino Merola
+ * Contact: iu8lmc@gmail.com
  * License: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
  *
  * Description:
  *
- * ULTRON is a sophisticated software tool designed for remotely or locally
+ * BALTEUS is a sophisticated software tool designed for remotely or locally
  * controlling programs like JTDX, MSHV, and WSJT-X. It offers seamless
  * operation on both Windows and Linux platforms, supporting both 32-bit and
  * 64-bit versions. The software relies on the latest version of PHP for
@@ -127,8 +127,8 @@ for ($i = 0; $i < 40; $i++) {
     echo "\n\r";
 }
 echo fg($mica, 1);
-echo " Created by Eduardo Castillo - LU9DCE\n\r";
-echo " (C) 2023 - castilloeduardo@outlook.com.ar\n\r";
+echo " Created by Martino Merola - IU8LMC\n\r";
+echo " (C) 2024 - iu8lmc@gmail.com\n\r";
 echo fg($mica, 1);
 echo "$robot Preparing :";
 echo " Version $version\n\r";
