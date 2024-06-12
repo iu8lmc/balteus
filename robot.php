@@ -1,6 +1,6 @@
 <?php
 /*
- * BALTEUS  based ULTRUN - Automatic Control of JTDX/WSJT-X/MSHV
+ * BALTEUS  based ULTRON - Automatic Control of JTDX/WSJT-X/MSHV
  *
  * Created by: IU8LMC 
  * Copyright: 2024 Martino Merola 
