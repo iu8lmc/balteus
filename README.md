@@ -6,7 +6,7 @@ Copyright: 2024 Martino Merola
 Contatto: iu8lmc@gmail.com
 Licenza: https://creativecommons.org/licenses/by-nc-nd/4.0/
 
-Raccomando AUTOSPOT: https://github.com/lu9dce/autospot
+
 
 FACILE DA SCARICARE PER WINDOWS: 📥 Balteus  (WIN)
 
@@ -18,15 +18,11 @@ Ho testato questo programma su Slackware 15.0 e altri colleghi l'hanno testato s
 
 Non garantisco la sua funzionalità se l'utente non ha conoscenze."
 
-DONARE
-Aiuto in spagnolo sulla Wiki.
-
-
 
 Descrizione
 BALTEUS è uno strumento software sofisticato progettato per controllare programmi come JTDX, MSHV e WSJT-X in remoto o localmente. Offre un'operazione fluida su piattaforme Windows e Linux, supportando sia versioni a 32 bit che a 64 bit. Il software si basa sull'ultima versione di PHP per un rendimento ottimale.
 
-Vantaggi dell'Uso di ULTRON
+Vantaggi dell'Uso di BALTEUS
 BALTEUS offre molteplici vantaggi come BOT per il controllo di programmi come JTDX, MSHV e WSJT-X:
 
 Controllo Remoto Senza Sforzo: BALTEUS consente agli utenti di controllare i programmi radio in remoto, eliminando la necessità di presenza fisica. Questo è particolarmente utile in scenari in cui sono necessari aggiustamenti e monitoraggio in tempo reale senza essere legati a una posizione specifica.
