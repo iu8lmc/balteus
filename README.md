@@ -6,7 +6,9 @@ Copyright: 2024 Martino Merola
 Contatto: iu8lmc@gmail.com
 Licenza: https://creativecommons.org/licenses/by-nc-nd/4.0/
 
+<img width="1915" alt="image" src="https://github.com/iu8lmc/balteus/assets/150430633/57ea01e8-9649-40f1-ba08-4012e26507f9](https://github.com/iu8lmc/balteus/blob/main/blateus.jpg">
 
+https://github.com/iu8lmc/balteus/blob/main/blateus.jpg
 
 FACILE DA SCARICARE PER WINDOWS: 📥 Balteus  (WIN)
 
